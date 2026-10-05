@@ -1,4 +1,10 @@
-/frontend/node_modules
-/frontend/node_modules
 /target
-/target
+target/
+/frontend/node_modules
+frontend/node_modules/
+frontend/.svelte-kit/
+frontend/build/
+.env
+.env.*
+!.env.example
+*.log
