@@ -1,0 +1,127 @@
+import type { Dictionary } from './en';
+
+export const id: Dictionary = {
+  common: {
+    appTitle: 'CAEntech',
+    save: 'Simpan',
+    cancel: 'Batal',
+    delete: 'Hapus',
+    edit: 'Edit',
+    search: 'Cari...',
+    loading: 'Memuat...',
+    error: 'Terjadi Kesalahan',
+    retry: 'Coba Lagi',
+    confirm: 'Konfirmasi',
+    close: 'Tutup',
+    back: 'Kembali',
+    done: 'Selesai',
+    copy: 'Salin',
+    copied: 'Tersalin',
+    actions: 'Aksi',
+    emptyState: 'Belum ada data',
+    noResults: 'Tidak ada hasil yang cocok',
+    required: 'Wajib diisi'
+  },
+  nav: {
+    notes: 'Catatan',
+    settings: 'Pengaturan'
+  },
+  vault: {
+    title: 'Keamanan Brankas',
+    masterPassword: 'Kata Sandi Utama',
+    confirmPassword: 'Konfirmasi Kata Sandi',
+    enterPassword: 'Input Kata Sandi Utama',
+    setPassword: 'Atur Kata Sandi Utama',
+    unlock: 'Buka Kunci Brankas',
+    locked: 'Brankas Terkunci',
+    changePassword: 'Ubah Kata Sandi Utama',
+    oldPassword: 'Kata Sandi Lama',
+    newPassword: 'Kata Sandi Baru',
+    resetVault: 'Reset Brankas',
+    resetWarning: 'Tindakan ini akan menghapus semua data lokal secara permanen.',
+    unlockedSuccess: 'Brankas berhasil dibuka',
+    invalidPassword: 'Kata sandi tidak valid'
+  },
+  profiles: {
+    title: 'Profil Pengguna',
+    selectProfile: 'Pilih Profil',
+    addProfile: 'Tambah Profil',
+    editProfile: 'Edit Profil',
+    name: 'Nama Profil',
+    role: 'Peran',
+    pin: 'PIN (Opsional)',
+    enterPin: 'Masukkan 4-6 digit PIN',
+    roles: {
+      owner: 'Pemilik (Ayah)',
+      partner: 'Pasangan (Ibu)',
+      member: 'Anggota',
+      child: 'Anak'
+    },
+    switchProfile: 'Ganti Profil',
+    activeProfile: 'Aktif'
+  },
+  notes: {
+    title: 'Catatan',
+    subtitle: 'Contoh modul sinkronisasi generic standar CAEntech',
+    addNote: 'Catatan Baru',
+    editNote: 'Edit Catatan',
+    noteTitle: 'Judul Catatan',
+    noteContent: 'Tulis isi catatan di sini...',
+    tags: 'Tag (pisahkan dengan koma)',
+    visibility: 'Visibilitas',
+    visibilityShared: 'Bersama (Semua keluarga)',
+    visibilitySummary: 'Ringkasan Privat (Hanya total/ringkasan)',
+    visibilityPrivate: 'Privat (Hanya pemilik)',
+    noNotes: 'Belum ada catatan. Buat catatan pertamamu sekarang!',
+    deleteConfirm: 'Yakin ingin menghapus catatan ini?',
+    saveSuccess: 'Catatan berhasil disimpan',
+    deleteSuccess: 'Catatan berhasil dihapus'
+  },
+  settings: {
+    title: 'Pengaturan',
+    general: 'Umum',
+    appearance: 'Tampilan',
+    theme: 'Tema',
+    themes: {
+      system: 'Sistem',
+      dark: 'Gelap',
+      light: 'Terang'
+    },
+    language: 'Bahasa',
+    security: 'Keamanan & Profil',
+    ai: 'Asisten AI',
+    about: 'Tentang Aplikasi',
+    performance: 'Performa',
+    hardwareAcceleration: 'Akselerasi Perangkat Keras',
+    version: 'Versi'
+  },
+  ai: {
+    title: 'Asisten AI',
+    endpoint: 'Endpoint API',
+    apiKey: 'Kunci API',
+    model: 'Nama Model',
+    privacyMode: 'Filter Privasi Data',
+    privacyDesc: 'Anonimkan dan sensor nama serta data sensitif sebelum dikirim ke AI',
+    send: 'Kirim',
+    promptPlaceholder: 'Tanyakan sesuatu...',
+    systemPrompt: 'Prompt Guardrail Sistem'
+  },
+  pro: {
+    title: 'Lisensi Pro',
+    status: 'Status',
+    active: 'Pro Aktif',
+    free: 'Versi Gratis',
+    manage: 'Kelola Langganan',
+    activate: 'Aktivasi Kunci Lisensi'
+  },
+  feedback: {
+    title: 'Kirim Masukan',
+    rating: 'Bagaimana pengalaman Anda?',
+    content: 'Kritik, saran, atau laporan bug...',
+    name: 'Nama Anda (opsional)',
+    submit: 'Kirim Masukan',
+    success: 'Terima kasih atas masukan Anda!'
+  }
+};
+
+export default id;

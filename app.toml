@@ -1,0 +1,60 @@
+[app]
+name = "CAEntech"
+slug = "caentech"
+bundle_id = "com.fathforce.caentech"
+version = "0.1.0-dev"
+accent_color = "rose"
+error_prefix = "CENTECH"
+description = "English Fluency & AI Speaking Coach for Software Engineers & Tech Professionals"
+brand = "CAEntech by Cecep Azhar"
+
+[window]
+title = "CAEntech"
+width = 1280
+height = 850
+min_width = 900
+min_height = 650
+
+[security]
+master_password_required = true
+profile_pin_enabled = true
+
+[modules]
+sample_slice_enabled = true
+ai_assistant_enabled = true
+pro_licensing_enabled = true
+updater_enabled = true
+crash_reporting_enabled = true
+backup_restore_enabled = true
+
+[roles]
+default_role = "member"
+allowed_roles = ["owner", "partner", "member", "student"]
+
+[[menus]]
+key = "standup"
+label = "Daily Standup"
+href = "/"
+icon = "terminal"
+description = "Daily standup & agile meeting speech simulator"
+
+[[menus]]
+key = "interview"
+label = "STAR Interview"
+href = "/interview"
+icon = "sparkles"
+description = "STAR method tech job interview coach with Mr. Boy"
+
+[[menus]]
+key = "pronunciation"
+label = "Pronunciation Lab"
+href = "/pronunciation"
+icon = "audio"
+description = "Technical terminology phonetic & pronunciation drills"
+
+[[menus]]
+key = "vocabulary"
+label = "Tech Vocabulary"
+href = "/vocabulary"
+icon = "book"
+description = "Software engineering & DevOps phrasebook and idioms"
