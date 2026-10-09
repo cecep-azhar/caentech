@@ -4,7 +4,7 @@ Modern, sync-ready, multi-profile application starter framework for Desktop (Lin
 
 Built with **Rust (Edition 2024)**, **Tauri v2**, **SQLCipher (Argon2id)**, **Svelte 5 Runes**, and **Tailwind CSS v4**.
 
-Derived from [CATerm](https://github.com/cecep-azhar/caterm) with all terminal/SSH dependencies removed.
+Derived from [CATerm](https://github.com/cecepazhar/caterm) with all terminal/SSH dependencies removed.
 
 ---
 
@@ -28,7 +28,7 @@ Derived from [CATerm](https://github.com/cecep-azhar/caterm) with all terminal/S
 ### 2. Setup & Development
 ```bash
 # Clone repository
-git clone https://github.com/cecep-azhar/caentech.git
+git clone https://github.com/cecepazhar/caentech.git
 cd caentech
 
 # Run Codegen

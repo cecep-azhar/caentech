@@ -14,7 +14,7 @@ Create a separate private repository `caentech-notes` to archive the audit trail
 git clone /home/cecepazhar/Project/caentech /tmp/caf-notes-export
 cd /tmp/caf-notes-export
 git filter-repo --path Notes/ --path-rename Notes/:
-git remote add origin git@github.com:cecep-azhar/caentech-notes.git
+git remote add origin git@github.com:cecepazhar/caentech-notes.git
 git push -u origin main --force
 ```
 
@@ -36,6 +36,6 @@ git log --all -- build/bin/caterm
 
 ### Step 4: Push to Public Remote
 ```bash
-git remote set-url origin git@github.com:cecep-azhar/caentech.git
+git remote set-url origin git@github.com:cecepazhar/caentech.git
 git push origin main --force
 ```
